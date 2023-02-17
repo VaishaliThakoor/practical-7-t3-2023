@@ -4,8 +4,8 @@
   "description": "SIT725 Project ",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js", 
-    "test" : "mocha --reporter spec"
+    "start": "node server.js",
+    "test": "mocha --reporter spec"
   },
   "repository": {
     "type": "git",
@@ -28,6 +28,7 @@
     "express": "^4.18.2",
     "mocha": "^10.2.0",
     "mongodb": "^4.12.1",
-    "request": "^2.88.2"
+    "request": "^2.88.2",
+    "socket.io": "^4.6.0"
   }
 }
